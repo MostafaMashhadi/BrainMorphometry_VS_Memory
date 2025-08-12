@@ -1,0 +1,38 @@
+# ===== macOS system files =====
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+
+# ===== Python cache & build =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+*.log
+
+# ===== Virtual environments =====
+.venv/
+env/
+venv/
+ENV/
+
+# ===== Jupyter Notebook checkpoints =====
+.ipynb_checkpoints/
+
+# ===== Data folder (sensitive files) =====
+data/
+
+# ===== Temporary files =====
+Thumbs.db
+.svn/
+.idea/
+.vscode/
+
